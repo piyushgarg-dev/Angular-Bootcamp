@@ -1,0 +1,16 @@
+<div class="text-center">
+  <header class="bg-dark text-white text-center p-2">
+    <h1>
+      Counter
+    </h1>
+  </header>
+
+  <main class="mt-5">
+    <h2>Current Count is: {{ count }}</h2>
+  </main>
+
+  <button (click)="handleReset()" class="btn btn-warning m-1">Reset Count</button>
+  <button (click)="handleIncrease()" class="btn btn-success m-1">Increment</button>
+  <button (click)="handleDecrease()" class="btn btn-danger m-1">Decrement</button>
+
+</div>

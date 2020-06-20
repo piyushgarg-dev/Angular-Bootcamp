@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "github-app-b1035": {
+      "hosting": {
+        "github-firebase": [
+          "github-app-b1035"
+        ]
+      }
+    }
+  }
+}
